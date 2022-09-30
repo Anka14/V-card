@@ -1,0 +1,163 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  width: 90%;
+  background: black;
+  height: auto;
+ 
+}
+
+.container {
+  background: linear-gradient(
+    to right, #4C00F7 0%,
+    #4C00F7 50%,
+    white 0%,
+    white 50%
+  );
+  display: flex;
+  width:60%;
+  height: 700px;
+  margin:auto;
+  
+}
+
+.section-one {
+  width:40%;
+}
+
+.picture-logo-photo {
+  display: flex;
+}
+
+.logo-img {
+  width: 120px;
+  height: 100px;
+  padding-right: 50px;
+  padding-left: 20px;
+  padding-top: 20px;
+
+}
+
+.photo-img {
+  padding-top: 20px;
+  z-index:2;
+  position: absolute;
+  padding-left: 250px;
+  
+}
+
+
+.contacts {
+ font-family: 'Courier New', Courier, monospace;
+ color: white;
+ font-weight: bold;
+ padding-top:400px;
+ width:50vw;
+}
+
+.contact-infor {
+  font-size: large;
+  font-weight: bold;
+  padding-left: 20px;
+  padding-bottom: 5px;
+}
+.name {
+  color:white;
+  padding-left: 20px;
+}
+
+.contacts-item {
+  padding-bottom: 10px;
+}
+
+.social-links {
+  padding-left: 2px;
+  font-weight: bold;
+
+}
+
+.social-links-img {
+  display: flex;
+  padding-left: 20px;
+  
+}
+
+.link-net {
+  padding-right: 15px;
+}
+
+.right-bar-menu {
+  display: flex;
+  padding-left: 550px;
+}
+.right-bar-description {
+  padding-top: 210px;
+  padding-left: 280px;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  line-height: 30px;  
+}
+
+.user-name {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 35px;
+  font-weight: bolder;
+}
+
+.user-surname {
+  color: #4C00F7;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 35px;
+  font-weight: bolder;
+}
+
+.carrer-item {
+  padding-top: 20px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: small;
+  letter-spacing: 1px;
+}
+
+.par-description-user {
+  padding-top: 30px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.right-bar-menu {
+  padding-top: 10px;
+  
+}
+
+.btn-add {
+  padding: 15px;
+  
+}
+
+.btn-portfolio {
+  width:100px;
+  height: 35px;
+  border:1px solid #4C00F7;
+  border-radius:15px;
+  background: #4C00F7;
+  color:white;
+}
+
+.btn-resume {
+  width:100px;
+  height: 35px;
+  border:1px solid black;
+  border-radius:15px;
+  background:white;
+  color:black;
+}
+
+
+
+
+
+
